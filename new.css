@@ -1,0 +1,111 @@
+.header{
+		background-color: #51738c;
+		height:15%;
+		width:100%;
+	}
+	.d1{
+		float: left;
+		font-size: 50;
+		font-style: bold;
+		color: white;
+	}
+	.d2{
+		float: left;
+	}
+	.menu{
+		background-color: white;
+		width: 100%;
+		height: 7%;
+	}	
+	a{
+		font-size:30px;
+		text-decoration: none;
+		color: black;
+		padding: 2px; 
+	}
+	a:hover{
+		color:white;
+	}
+	.button{
+		text-align: center;
+   		padding-left: 10px; 
+		float:left;
+		width: 15%;
+		padding: 0%;
+		height:100%;
+	}
+.maincontent{
+	color: green;
+	width:100%;
+	height:120%; 
+	background-color: none;	
+}
+
+.drop{
+	background: none;
+	width:100%;
+	z-index: 1;
+	display: none;
+	height:500%;
+	margin-top: -15px;
+	position: relative;
+}
+
+.button:hover .drop
+{
+	display: block;
+}
+
+.button:hover
+{
+	color: white;
+	background-color: gray;
+}
+
+.li1
+{
+	width:100%;
+	height:30%;
+	padding-top:1%;
+	position: relative;
+	padding-left: 5%; 
+	border-bottom: solid;
+	margin-left: 0px;
+	z-index: 1;
+}
+.ul1
+{
+	width: 100%;
+	padding-left: 0px; 
+	background-color: silver;
+}
+.li1:hover{
+	background-color: gray;
+}
+.img
+{
+	z-index: -1;
+}
+.quote{
+
+}
+.footer{
+	text-align: center;
+	background-color:grey;
+	margin-top: 5%;
+	width:100%;
+	height:20%;
+	position: relative;
+}
+
+.copyright{
+	padding:40px;
+}
+
+#f11
+{
+	height:100%;
+	border-radius: 10%;
+	width:90%;
+	text-align: center;
+}
